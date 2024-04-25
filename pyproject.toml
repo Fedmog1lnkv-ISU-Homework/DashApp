@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dashapp"
+version = "0.1.0"
+description = ""
+authors = ["Fedor Kuznetsov <kuzneczov-f@susanoo.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dash = "^2.16.1"
+pandas = "^2.2.2"
+dash-draggable = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
