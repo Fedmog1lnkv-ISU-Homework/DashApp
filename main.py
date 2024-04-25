@@ -206,4 +206,4 @@ def extract_year_range_from_relayout_data(relayout_data):
 app = app.server
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
